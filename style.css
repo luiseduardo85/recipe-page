@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1;
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+}
+
+#main-container{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 3em;
+    width: 80%;
+    max-width: 670px;
+    padding: 1.5em;
+    
+}
+
+.img-container{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 0.8em;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+li{
+    color: hsl(332, 51%, 32%);
+}
+
+ol{
+    font-weight: 600;
+}
+.container-preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.3em;
+    border-radius: 15px;
+}
+h2{
+    color: hsl(332, 51%, 32%);
+    margin-left: 10px;
+    padding: 0.1em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.sub-title{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.item-preparation{
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.container-ingredients{
+    padding-bottom: 0.5em;
+}
+
+.ingredients{
+    padding-left: 0.8em;
+}
+
+.instructions{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td{
+    padding: 15px 0;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%) ;
+    font-family: "Outfit"
+}
+
+.calories{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.last{
+    border-bottom: hidden;
+}
+
+@media (max-width: 415px) {
+    #main-container {
+      width: 87%;
+      padding: 0;
+      border-radius: 0;
+    
+    }
+    .img-container{
+        width: 100%;
+        margin: 0;
+    }
+    .first-paragraph{
+        width: 96%;
+        padding: 0em;
+        
+        margin-left: 10px;
+    }
+    img{
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+    .container-preparation{
+        width: 89%;
+        margin-left: 15px;
+    }
+}
